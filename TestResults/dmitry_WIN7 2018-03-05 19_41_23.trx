@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="ffa000f8-0ecd-4d72-9064-400e8e335a15" name="dmitry@WIN7 2018-03-05 19:41:23" runUser="win7\dmitry" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Локальные" id="961389cf-5c0e-473b-bb70-b4d6c6879f37">
+    <Description>Это - параметры по умолчанию для локального тестового запуска.</Description>
+    <Deployment enabled="false" runDeploymentRoot="dmitry_WIN7 2018-03-05 19_41_23">
+      <DeploymentItem filename="C:\Users\dmitry\Documents\Visual Studio 2010\Projects\MindboxLibrary\MindboxLibrary\bin\Debug\MindboxLibrary.dll" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2018-03-05T19:41:23.6446719+03:00" queuing="2018-03-05T19:41:23.7147727+03:00" start="2018-03-05T19:41:23.9651327+03:00" finish="2018-03-05T19:41:25.0466879+03:00" />
+  <ResultSummary outcome="Failed">
+    <Counters total="1" executed="1" error="0" failed="1" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" passed="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="TriangleSquare" storage="c:\users\dmitry\documents\visual studio 2010\projects\mindboxlibrary\mindboxlibrarytest\bin\debug\mindboxlibrarytest.dll" id="b5a9c3c7-96e3-f38e-01a1-265a2f563f39">
+      <Execution id="c5ee432d-8b2d-4262-9a5c-8b19ba8d36a8" />
+      <TestMethod codeBase="C:/Users/dmitry/Documents/Visual Studio 2010/Projects/MindboxLibrary/MindboxLibraryTest/bin/Debug/MindboxLibraryTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="MindboxLibraryTest.TriangleTests, MindboxLibraryTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TriangleSquare" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Отсутствующие в списке результаты" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="Все загруженные результаты" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="b5a9c3c7-96e3-f38e-01a1-265a2f563f39" executionId="c5ee432d-8b2d-4262-9a5c-8b19ba8d36a8" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="c5ee432d-8b2d-4262-9a5c-8b19ba8d36a8" testId="b5a9c3c7-96e3-f38e-01a1-265a2f563f39" testName="TriangleSquare" computerName="WIN7" duration="00:00:00.1071407" startTime="2018-03-05T19:41:24.1453919+03:00" endTime="2018-03-05T19:41:24.6761551+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="c5ee432d-8b2d-4262-9a5c-8b19ba8d36a8">
+      <Output>
+        <ErrorInfo>
+          <Message>Метод проверки MindboxLibraryTest.TriangleTests.TriangleSquare выдал исключение: System.Exception: Right Triangle is required!.</Message>
+          <StackTrace>    в MindboxLibrary.Triangle.CheckForRightTriangle() в C:\Users\dmitry\Documents\Visual Studio 2010\Projects\MindboxLibrary\MindboxLibrary\Triangle.cs:строка 31
+   в MindboxLibrary.Triangle.Square() в C:\Users\dmitry\Documents\Visual Studio 2010\Projects\MindboxLibrary\MindboxLibrary\Triangle.cs:строка 44
+   в MindboxLibraryTest.TriangleTests.TriangleSquare() в C:\Users\dmitry\Documents\Visual Studio 2010\Projects\MindboxLibrary\MindboxLibraryTest\TriangleTests.cs:строка 74
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+  </Results>
+</TestRun>

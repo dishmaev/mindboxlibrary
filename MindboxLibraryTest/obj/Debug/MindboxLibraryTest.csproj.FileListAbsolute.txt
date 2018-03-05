@@ -1,0 +1,7 @@
+C:\Users\dmitry\Documents\Visual Studio 2010\Projects\MindboxLibrary\MindboxLibraryTest\bin\Debug\MindboxLibraryTest.dll
+C:\Users\dmitry\Documents\Visual Studio 2010\Projects\MindboxLibrary\MindboxLibraryTest\bin\Debug\MindboxLibraryTest.pdb
+C:\Users\dmitry\Documents\Visual Studio 2010\Projects\MindboxLibrary\MindboxLibraryTest\bin\Debug\MindboxLibrary.dll
+C:\Users\dmitry\Documents\Visual Studio 2010\Projects\MindboxLibrary\MindboxLibraryTest\bin\Debug\MindboxLibrary.pdb
+C:\Users\dmitry\Documents\Visual Studio 2010\Projects\MindboxLibrary\MindboxLibraryTest\obj\Debug\MindboxLibraryTest.csprojResolveAssemblyReference.cache
+C:\Users\dmitry\Documents\Visual Studio 2010\Projects\MindboxLibrary\MindboxLibraryTest\obj\Debug\MindboxLibraryTest.dll
+C:\Users\dmitry\Documents\Visual Studio 2010\Projects\MindboxLibrary\MindboxLibraryTest\obj\Debug\MindboxLibraryTest.pdb

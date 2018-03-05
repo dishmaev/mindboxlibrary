@@ -1,0 +1,56 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="dbfc2e86-bfc2-41e8-b38d-c32144e8c25e" name="dmitry@WIN7 2018-03-05 19:59:09" runUser="win7\dmitry" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Локальные" id="961389cf-5c0e-473b-bb70-b4d6c6879f37">
+    <Description>Это - параметры по умолчанию для локального тестового запуска.</Description>
+    <Deployment enabled="false" runDeploymentRoot="dmitry_WIN7 2018-03-05 19_59_09">
+      <DeploymentItem filename="C:\Users\dmitry\Documents\Visual Studio 2010\Projects\MindboxLibrary\MindboxLibrary\bin\Debug\MindboxLibrary.dll" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2018-03-05T19:59:09.6880943+03:00" queuing="2018-03-05T19:59:09.7581951+03:00" start="2018-03-05T19:59:09.9684975+03:00" finish="2018-03-05T19:59:11.0800959+03:00" />
+  <ResultSummary outcome="Failed">
+    <Counters total="3" executed="3" passed="2" error="0" failed="1" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="RightTriangleSquare" storage="c:\users\dmitry\documents\visual studio 2010\projects\mindboxlibrary\mindboxlibrarytest\bin\debug\mindboxlibrarytest.dll" id="929cd42e-f23c-b9ce-89f6-e92e8630e4ea">
+      <Execution id="e96e9be3-3590-4411-a4ac-c3a398862617" />
+      <TestMethod codeBase="C:/Users/dmitry/Documents/Visual Studio 2010/Projects/MindboxLibrary/MindboxLibraryTest/bin/Debug/MindboxLibraryTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="MindboxLibraryTest.TriangleTests, MindboxLibraryTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="RightTriangleSquare" />
+    </UnitTest>
+    <UnitTest name="CircleSquare" storage="c:\users\dmitry\documents\visual studio 2010\projects\mindboxlibrary\mindboxlibrarytest\bin\debug\mindboxlibrarytest.dll" id="2fd04da8-c83b-75ee-14f2-bbcf2b1a491d">
+      <Execution id="9f7b1c80-2889-42ae-91c5-cf2287258c10" />
+      <TestMethod codeBase="C:/Users/dmitry/Documents/Visual Studio 2010/Projects/MindboxLibrary/MindboxLibraryTest/bin/Debug/MindboxLibraryTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="MindboxLibraryTest.CircleTests, MindboxLibraryTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="CircleSquare" />
+    </UnitTest>
+    <UnitTest name="NonRightTriangleSquare" storage="c:\users\dmitry\documents\visual studio 2010\projects\mindboxlibrary\mindboxlibrarytest\bin\debug\mindboxlibrarytest.dll" id="e9284ef4-3b18-67a1-7c04-440c28d8948d">
+      <Execution id="f9d8a2ae-d0e8-41da-964c-c2caa555b0ef" />
+      <TestMethod codeBase="C:/Users/dmitry/Documents/Visual Studio 2010/Projects/MindboxLibrary/MindboxLibraryTest/bin/Debug/MindboxLibraryTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="MindboxLibraryTest.TriangleTests, MindboxLibraryTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="NonRightTriangleSquare" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Отсутствующие в списке результаты" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="Все загруженные результаты" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="2fd04da8-c83b-75ee-14f2-bbcf2b1a491d" executionId="9f7b1c80-2889-42ae-91c5-cf2287258c10" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="929cd42e-f23c-b9ce-89f6-e92e8630e4ea" executionId="e96e9be3-3590-4411-a4ac-c3a398862617" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="e9284ef4-3b18-67a1-7c04-440c28d8948d" executionId="f9d8a2ae-d0e8-41da-964c-c2caa555b0ef" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="9f7b1c80-2889-42ae-91c5-cf2287258c10" testId="2fd04da8-c83b-75ee-14f2-bbcf2b1a491d" testName="CircleSquare" computerName="WIN7" duration="00:00:00.0476362" startTime="2018-03-05T19:59:10.0285839+03:00" endTime="2018-03-05T19:59:10.3991167+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="9f7b1c80-2889-42ae-91c5-cf2287258c10">
+    </UnitTestResult>
+    <UnitTestResult executionId="e96e9be3-3590-4411-a4ac-c3a398862617" testId="929cd42e-f23c-b9ce-89f6-e92e8630e4ea" testName="RightTriangleSquare" computerName="WIN7" duration="00:00:00.0274347" startTime="2018-03-05T19:59:10.4892463+03:00" endTime="2018-03-05T19:59:10.5493327+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="e96e9be3-3590-4411-a4ac-c3a398862617">
+    </UnitTestResult>
+    <UnitTestResult executionId="f9d8a2ae-d0e8-41da-964c-c2caa555b0ef" testId="e9284ef4-3b18-67a1-7c04-440c28d8948d" testName="NonRightTriangleSquare" computerName="WIN7" duration="00:00:00.0467961" startTime="2018-03-05T19:59:10.6394623+03:00" endTime="2018-03-05T19:59:10.7095631+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="f9d8a2ae-d0e8-41da-964c-c2caa555b0ef">
+      <Output>
+        <ErrorInfo>
+          <Message>Ошибка в Assert.IsInstanceOfType. Exception raised was not the expected type.Ожидается тип: &lt;MindboxLibrary.NonRightTriangleException&gt;. Фактический тип: &lt;Microsoft.VisualStudio.TestTools.UnitTesting.AssertFailedException&gt;.</Message>
+          <StackTrace>   в MindboxLibraryTest.TriangleTests.NonRightTriangleSquare() в C:\Users\dmitry\Documents\Visual Studio 2010\Projects\MindboxLibrary\MindboxLibraryTest\TriangleTests.cs:строка 92
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+  </Results>
+</TestRun>

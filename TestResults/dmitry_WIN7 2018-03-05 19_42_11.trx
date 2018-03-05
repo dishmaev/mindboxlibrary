@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="1ee6e24f-9e8d-4ea0-8965-2420bf346875" name="dmitry@WIN7 2018-03-05 19:42:11" runUser="win7\dmitry" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Локальные" id="961389cf-5c0e-473b-bb70-b4d6c6879f37">
+    <Description>Это - параметры по умолчанию для локального тестового запуска.</Description>
+    <Deployment enabled="false" runDeploymentRoot="dmitry_WIN7 2018-03-05 19_42_11">
+      <DeploymentItem filename="C:\Users\dmitry\Documents\Visual Studio 2010\Projects\MindboxLibrary\MindboxLibrary\bin\Debug\MindboxLibrary.dll" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2018-03-05T19:42:11.1032831+03:00" queuing="2018-03-05T19:42:11.1733839+03:00" start="2018-03-05T19:42:11.3536431+03:00" finish="2018-03-05T19:42:12.2949967+03:00" />
+  <ResultSummary outcome="Completed">
+    <Counters total="1" executed="1" passed="1" error="0" failed="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="TriangleSquare" storage="c:\users\dmitry\documents\visual studio 2010\projects\mindboxlibrary\mindboxlibrarytest\bin\debug\mindboxlibrarytest.dll" id="b5a9c3c7-96e3-f38e-01a1-265a2f563f39">
+      <Execution id="36d53f72-7af4-4309-94cd-a5020369510e" />
+      <TestMethod codeBase="C:/Users/dmitry/Documents/Visual Studio 2010/Projects/MindboxLibrary/MindboxLibraryTest/bin/Debug/MindboxLibraryTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="MindboxLibraryTest.TriangleTests, MindboxLibraryTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TriangleSquare" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Отсутствующие в списке результаты" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="Все загруженные результаты" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="b5a9c3c7-96e3-f38e-01a1-265a2f563f39" executionId="36d53f72-7af4-4309-94cd-a5020369510e" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="36d53f72-7af4-4309-94cd-a5020369510e" testId="b5a9c3c7-96e3-f38e-01a1-265a2f563f39" testName="TriangleSquare" computerName="WIN7" duration="00:00:00.0163470" startTime="2018-03-05T19:42:11.4337583+03:00" endTime="2018-03-05T19:42:11.8443487+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="36d53f72-7af4-4309-94cd-a5020369510e">
+    </UnitTestResult>
+  </Results>
+</TestRun>

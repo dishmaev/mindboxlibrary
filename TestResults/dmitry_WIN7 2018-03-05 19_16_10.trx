@@ -1,0 +1,56 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="b7f7b186-1120-451b-969a-7ac23e7c69a1" name="dmitry@WIN7 2018-03-05 19:16:10" runUser="win7\dmitry" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Локальные" id="961389cf-5c0e-473b-bb70-b4d6c6879f37">
+    <Description>Это - параметры по умолчанию для локального тестового запуска.</Description>
+    <Deployment enabled="false" runDeploymentRoot="dmitry_WIN7 2018-03-05 19_16_10">
+      <DeploymentItem filename="C:\Users\dmitry\Documents\Visual Studio 2010\Projects\MindboxLibrary\MindboxLibrary\bin\Debug\MindboxLibrary.dll" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2018-03-05T19:16:10.6429979+03:00" queuing="2018-03-05T19:16:10.6911515+03:00" start="2018-03-05T19:16:10.9095147+03:00" finish="2018-03-05T19:16:11.3801915+03:00" />
+  <ResultSummary outcome="Failed">
+    <Counters total="2" executed="2" error="0" failed="2" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" passed="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="TriangleSquare" storage="c:\users\dmitry\documents\visual studio 2010\projects\mindboxlibrary\mindboxlibrarytest\bin\debug\mindboxlibrarytest.dll" id="b5a9c3c7-96e3-f38e-01a1-265a2f563f39">
+      <Execution id="6d4baafd-82ed-4a00-8daf-f96c284a0e40" />
+      <TestMethod codeBase="C:/Users/dmitry/Documents/Visual Studio 2010/Projects/MindboxLibrary/MindboxLibraryTest/bin/Debug/MindboxLibraryTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="MindboxLibraryTest.TriangleTests, MindboxLibraryTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TriangleSquare" />
+    </UnitTest>
+    <UnitTest name="CircleSquare" storage="c:\users\dmitry\documents\visual studio 2010\projects\mindboxlibrary\mindboxlibrarytest\bin\debug\mindboxlibrarytest.dll" id="2fd04da8-c83b-75ee-14f2-bbcf2b1a491d">
+      <Execution id="b15e617b-4013-40bf-913e-fe47b28c9609" />
+      <TestMethod codeBase="C:/Users/dmitry/Documents/Visual Studio 2010/Projects/MindboxLibrary/MindboxLibraryTest/bin/Debug/MindboxLibraryTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="MindboxLibraryTest.CircleTests, MindboxLibraryTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="CircleSquare" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Отсутствующие в списке результаты" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="Все загруженные результаты" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="2fd04da8-c83b-75ee-14f2-bbcf2b1a491d" executionId="b15e617b-4013-40bf-913e-fe47b28c9609" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="b5a9c3c7-96e3-f38e-01a1-265a2f563f39" executionId="6d4baafd-82ed-4a00-8daf-f96c284a0e40" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="b15e617b-4013-40bf-913e-fe47b28c9609" testId="2fd04da8-c83b-75ee-14f2-bbcf2b1a491d" testName="CircleSquare" computerName="WIN7" duration="00:00:00.0392326" startTime="2018-03-05T19:16:10.9696011+03:00" endTime="2018-03-05T19:16:11.2099467+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="b15e617b-4013-40bf-913e-fe47b28c9609">
+      <Output>
+        <ErrorInfo>
+          <Message>Ошибка в Assert.AreEqual. Ожидается: &lt;40&gt;. Фактически: &lt;314,159265358979&gt;. </Message>
+          <StackTrace>   в MindboxLibraryTest.CircleTests.CircleSquare() в C:\Users\dmitry\Documents\Visual Studio 2010\Projects\MindboxLibrary\MindboxLibraryTest\CircleTests.cs:строка 22
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="6d4baafd-82ed-4a00-8daf-f96c284a0e40" testId="b5a9c3c7-96e3-f38e-01a1-265a2f563f39" testName="TriangleSquare" computerName="WIN7" duration="00:00:00.0024100" startTime="2018-03-05T19:16:11.2299755+03:00" endTime="2018-03-05T19:16:11.2299755+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="6d4baafd-82ed-4a00-8daf-f96c284a0e40">
+      <Output>
+        <ErrorInfo>
+          <Message>Ошибка в Assert.AreEqual. Ожидается: &lt;20&gt;. Фактически: &lt;6,49519052838329&gt;. </Message>
+          <StackTrace>   в MindboxLibraryTest.TriangleTests.TriangleSquare() в C:\Users\dmitry\Documents\Visual Studio 2010\Projects\MindboxLibrary\MindboxLibraryTest\TriangleTests.cs:строка 76
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+  </Results>
+</TestRun>

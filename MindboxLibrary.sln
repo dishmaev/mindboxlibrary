@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MindboxLibrary", "MindboxLibrary\MindboxLibrary.csproj", "{0EC2C48E-2EF7-4E69-9298-572405EAE69C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MindboxLibraryTest", "MindboxLibraryTest\MindboxLibraryTest.csproj", "{6107C5C6-A7B8-41AB-9F9F-1A230E860390}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{C9040558-66B2-4C8F-BABE-8C30BB79F133}"
+	ProjectSection(SolutionItems) = preProject
+		Local.testsettings = Local.testsettings
+		MindboxLibrary.vsmdi = MindboxLibrary.vsmdi
+		TraceAndTestImpact.testsettings = TraceAndTestImpact.testsettings
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(TestCaseManagementSettings) = postSolution
+		CategoryFile = MindboxLibrary.vsmdi
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0EC2C48E-2EF7-4E69-9298-572405EAE69C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0EC2C48E-2EF7-4E69-9298-572405EAE69C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0EC2C48E-2EF7-4E69-9298-572405EAE69C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0EC2C48E-2EF7-4E69-9298-572405EAE69C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6107C5C6-A7B8-41AB-9F9F-1A230E860390}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6107C5C6-A7B8-41AB-9F9F-1A230E860390}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6107C5C6-A7B8-41AB-9F9F-1A230E860390}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6107C5C6-A7B8-41AB-9F9F-1A230E860390}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
